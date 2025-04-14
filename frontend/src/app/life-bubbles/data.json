@@ -1,0 +1,72 @@
+{
+    "life_bubbles": [
+      {
+        "id": "LB1",
+        "name": "Intel Internship",
+        "state": "uncertain",
+        "description": "Waiting to hear back from Intel about an internship opportunity.",
+        "stressors": [
+          "Impacts my outlook for the summer and my life",
+          "Impacts whether I should be looking for more internships"
+        ],
+        "emotional_state": "anxious, hopeful",
+        "stress_level": 4,
+        "impacts": ["LB2", "LB3"]
+      },
+      {
+        "id": "LB2",
+        "name": "Summer 2025 Internship Search",
+        "state": "uncertain",
+        "description": "Search is on hold while waiting for Intel's response.",
+        "stressors": [
+          "Time is running out as Summer is almost here"
+        ],
+        "emotional_state": "pressured, uncertain",
+        "stress_level": 5,
+        "impacts": ["LB3", "LB6"],
+        "connected_to": ["LB1"]
+      },
+      {
+        "id": "LB3",
+        "name": "Career Progression",
+        "state": "ongoing",
+        "description": "Long-term concern around overall career trajectory.",
+        "stressors": [
+          "Some pressure, but not urgent since it's long term"
+        ],
+        "emotional_state": "concerned, motivated",
+        "stress_level": 3,
+        "connected_to": ["LB1", "LB2", "LB4", "LB6"]
+      },
+      {
+        "id": "LB4",
+        "name": "ForeverFM Project",
+        "state": "active",
+        "description": "Hackathon project that won 1st place and is continuing in development.",
+        "emotional_state": "proud, cautiously optimistic",
+        "stress_level": 2,
+        "impacts": ["LB3", "LB2"],
+        "benefits": ["LB3", "LB2", "LB5", "LB6"]
+      },
+      {
+        "id": "LB5",
+        "name": "Having Fun With Friends",
+        "state": "active",
+        "description": "Trying to chill.",
+        "emotional_state": "Funny, hyped, relaxed.",
+        "stress_level": 0,
+        "impacts": ["LB4"],
+        "benefits": ["LB6"]
+      },
+      {
+        "id": "LB6",
+        "name": "Life as a Whole",
+        "state": "active",
+        "description": "Trying to be something better.",
+        "emotional_state": "Stressed. Worried.",
+        "stress_level": 5,
+        "impacts": ["LB5"],
+        "benefits": []
+      }
+    ]
+  }
